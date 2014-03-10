@@ -1,0 +1,733 @@
+<!--#include file="module/header.shtml" -->
+<!--#include file="module/browse.shtml" -->
+<!--#include file="module/sidebar.shtml" -->
+<div class="main-content">
+  <!--#include file="module/brand.shtml" -->
+
+  <div class="container padded">
+    <div class="row">
+
+      <!-- Breadcrumb line -->
+
+      <div id="breadcrumbs">
+        <div class="breadcrumb-button blue">
+          <span class="breadcrumb-label"><i class="icon-home"></i> Home</span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+
+        
+            <div class="breadcrumb-button">
+              <span class="breadcrumb-label">
+                <i class="icon-beaker"></i> UI Lab
+              </span>
+              <span class="breadcrumb-arrow"><span></span></span>
+            </div>
+        
+
+        <div class="breadcrumb-button">
+          <span class="breadcrumb-label">
+            <i class="icon-plus-sign-alt"></i> Widgets
+          </span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- find me in partials/action_nav_normal_one_row -->
+
+<!--big normal buttons-->
+<div class="action-nav-normal action-nav-line">
+
+  <div class="row action-nav-row">
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="New Project">
+        <i class="icon-file-alt"></i>
+        <span>New Project</span>
+      </a>
+      <span class="triangle-button red"><i class="icon-plus"></i></span>
+    </div>
+
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="Messages">
+        <i class="icon-comments-alt"></i>
+        <span>Messages</span>
+      </a>
+      <span class="label label-black">14</span>
+    </div>
+
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="Files">
+        <i class="icon-folder-open-alt"></i>
+        <span>Files</span>
+      </a>
+    </div>
+
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="Users">
+        <i class="icon-user"></i>
+        <span>Users</span>
+      </a>
+    </div>
+
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="Friends">
+        <i class="icon-facebook-sign"></i>
+        <span>Friends</span>
+      </a>
+    </div>
+
+    <div class="col-sm-2 action-nav-button">
+      <a href="#" title="Followers">
+        <i class="icon-twitter"></i>
+        <span>Followers</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+<div class="divider"><span></span></div>
+
+<div class="row">
+  <div class="col-md-12">
+    
+<ul class="chat-box timeline">
+
+  <li class="arrow-box-left gray">
+    <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar1.jpg"></div>
+    <div class="info">
+      <span class="name">
+        <span class="label label-green">COMMENT</span> <strong class="indent">John</strong> posted a comment on this task: <strong>Core Admin</strong>
+      </span>
+      <span class="time"><i class="icon-time"></i> 3 minutes ago</span>
+    </div>
+    <div class="content">
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </blockquote>
+      <div>
+        <a href="#"><i class="icon-paper-clip"></i> <b>project_news.docx</b></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="arrow-box-left gray">
+    <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+    <div class="info">
+      <span class="name">
+        <span class="label label-blue">TASK</span> <strong class="indent">Janine</strong> completed this task: <strong class="strikethrough">Core Admin</strong>
+      </span>
+      <span class="time"><i class="icon-time"></i> 6 minutes ago</span>
+    </div>
+  </li>
+
+  <li class="arrow-box-left gray">
+    <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar3.jpg"></div>
+    <div class="info">
+      <span class="name">
+        <span class="label label-purple">FILE</span> <strong class="indent">Janine</strong> added 3 new files in project: <strong>Core Admin</strong>
+      </span>
+      <span class="time"><i class="icon-time"></i> 12 minutes ago</span>
+    </div>
+    <div class="content">
+      <ul class="thumbnails padded">
+        
+            <li class="col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="http://placehold.it/240x100" alt="">
+              </a>
+            </li>
+        
+            <li class="col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="http://placehold.it/240x100" alt="">
+              </a>
+            </li>
+        
+            <li class="col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="http://placehold.it/240x100" alt="">
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </li>
+</ul>
+
+<div class="box closable-chat-box">
+  <div class="box-content padded">
+
+    <div class="fields">
+      <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+      <ul>
+        <li><b>Add a comment for project <a href="#">Core Admin</a></b></li>
+        <li class="note">Click on the textarea below to expand it!</li>
+      </ul>
+    </div>
+
+    <form class="fill-up" action="/">
+
+      <div class="chat-message-box">
+        <textarea name="ttt" id="ttt" rows="5" placeholder="add a comment (click to expand!)"></textarea>
+      </div>
+
+      <div class="clearfix actions">
+        <span class="note">An optional note can go here</span>
+        <div class="pull-right faded-toolbar">
+          <a href="#" class="tip" title="" data-original-title="Attach files"><i class="icon-paper-clip"></i></a>
+          <a href="#" class="btn btn-blue btn-xs">Send</a>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div>
+  </div>
+</div>
+
+
+<div class="divider"><span></span></div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="box">
+      <div class="box-header">
+        <span class="title">News with icons (scrollable!)</span>
+        <ul class="box-toolbar">
+          <li><span class="label label-green">51</span></li>
+        </ul>
+      </div>
+      <div class="box-content scrollable" style="height: 410px; overflow-y: auto">
+        
+            <!-- find me in partials/news_with_icons -->
+
+<div class="box-section news with-icons">
+  <div class="avatar blue"><i class="icon-ok icon-2x"></i></div>
+  <div class="news-time">
+    <span>06</span> jan
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+    <div class="news-text">
+      With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news with-icons">
+  <div class="avatar green"><i class="icon-lightbulb icon-2x"></i></div>
+  <div class="news-time">
+    <span>11</span> feb
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+    <div class="news-text">
+      Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news with-icons">
+  <div class="avatar purple"><i class="icon-mobile-phone icon-2x"></i></div>
+  <div class="news-time">
+    <span>04</span> mar
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">All about SCSS</a></div>
+    <div class="news-text">
+      Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+    </div>
+  </div>
+</div>
+
+
+    <div class="box-section news with-icons">
+      <div class="avatar cyan"><i class="icon-ok icon-2x"></i></div>
+      <div class="news-time">
+        <span>22</span> dec
+      </div>
+      <div class="news-content">
+        <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+        <div class="news-text">
+          With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+        </div>
+      </div>
+    </div>
+
+
+        
+            <!-- find me in partials/news_with_icons -->
+
+<div class="box-section news with-icons">
+  <div class="avatar blue"><i class="icon-ok icon-2x"></i></div>
+  <div class="news-time">
+    <span>06</span> jan
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+    <div class="news-text">
+      With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news with-icons">
+  <div class="avatar green"><i class="icon-lightbulb icon-2x"></i></div>
+  <div class="news-time">
+    <span>11</span> feb
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+    <div class="news-text">
+      Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news with-icons">
+  <div class="avatar purple"><i class="icon-mobile-phone icon-2x"></i></div>
+  <div class="news-time">
+    <span>04</span> mar
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">All about SCSS</a></div>
+    <div class="news-text">
+      Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+    </div>
+  </div>
+</div>
+
+
+    <div class="box-section news with-icons">
+      <div class="avatar cyan"><i class="icon-ok icon-2x"></i></div>
+      <div class="news-time">
+        <span>22</span> dec
+      </div>
+      <div class="news-content">
+        <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+        <div class="news-text">
+          With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+        </div>
+      </div>
+    </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group addon-left">
+      <a class="input-group-addon" href="#">
+        <i class="icon-search"></i>
+      </a>
+      <input type="text" placeholder="Search... (prepended)">
+    </div>
+
+    <div class="search-dropdown box">
+      <!-- find me in partials/news_with_avatars -->
+
+<div class="box-section news">
+  <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+  <div class="news-time">
+    <span>06</span> jan
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+    <div class="news-text">
+      With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news">
+  <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar3.jpg"></div>
+  <div class="news-time">
+    <span>11</span> feb
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+    <div class="news-text">
+      Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news">
+  <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+  <div class="news-time">
+    <span>04</span> mar
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">All about SCSS</a></div>
+    <div class="news-text">
+      Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+    </div>
+  </div>
+</div>
+
+<div class="box-section news">
+  <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar3.jpg"></div>
+  <div class="news-time">
+    <span>06</span> jan
+  </div>
+  <div class="news-content">
+    <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+    <div class="news-text">
+      With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+    </div>
+  </div>
+</div>
+      <div class="box-footer flat text-center">
+  <ul class="pagination pagination-xs">
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li class="active"><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row">
+
+  <div class="col-md-6">
+    <!-- find me in partials/tasks_table -->
+
+<div class="box">
+  <div class="box-header">
+    <span class="title">Here be your tasks</span>
+    <ul class="box-toolbar">
+      <li><span class="label label-green">2 left</span></li>
+    </ul>
+  </div>
+  <div class="box-content">
+    <table class="table table-normal">
+      <thead>
+      <tr>
+        <td></td>
+        <td>Task</td>
+        <td>Done</td>
+        <td style="width: 40px"></td>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr class="status-pending">
+        <td class="icon"><i class="icon-exchange"></i></td>
+        <td><a href="#">Doing the dew</a></td>
+        <td><b>0%</b></td>
+        <td>
+          <div class="btn-group">
+            <button class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="status-info">
+        <td class="icon"><i class="icon-refresh"></i></td>
+        <td><a href="#">Doing some stuff</a></td>
+        <td><b>14%</b></td>
+        <td>
+          <div class="btn-group">
+            <button class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="status-success">
+        <td class="icon"><i class="icon-ok"></i></td>
+        <td><a href="#">Build the prototype</a></td>
+        <td><b>100%</b></td>
+        <td>
+          <div class="btn-group">
+            <button class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="status-info">
+        <td class="icon"><i class="icon-refresh"></i></td>
+        <td><a href="#">Fixing bugs</a></td>
+        <td><b>28%</b></td>
+        <td>
+          <div class="btn-group">
+            <button class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+    <!-- find me in partials/stats_table -->
+
+<div class="box">
+  <div class="box-header">
+    <span class="title">Here be your stats</span>
+    <ul class="box-toolbar">
+      <li><span class="label label-blue">189</span></li>
+    </ul>
+  </div>
+  <div class="box-content">
+    <table class="table table-normal">
+      <thead>
+      <tr>
+        <td></td>
+        <td>Item</td>
+        <td>Stats</td>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <td style="width: 60px;"><div class="sparkline"><canvas width="59" height="18" style="display: inline-block; width: 59px; height: 18px; vertical-align: top;"></canvas></div></td>
+        <td style="text-align: center;"><i class="icon-user"></i> Visitors</td>
+        <td class="status-error"><i class="icon-circle-arrow-down"></i> -5%</td>
+      </tr>
+
+      <tr>
+        <td style="width: 60px;"><div class="sparkline" data-color="green"><canvas width="59" height="18" style="display: inline-block; width: 59px; height: 18px; vertical-align: top;"></canvas></div></td>
+        <td style="text-align: center;"><i class="icon-comments-alt"></i> Comments</td>
+        <td class="status-success"><i class="icon-circle-arrow-up"></i> +10%</td>
+      </tr>
+
+      <tr>
+        <td style="width: 60px;"><div class="sparkline"><canvas width="59" height="18" style="display: inline-block; width: 59px; height: 18px; vertical-align: top;"></canvas></div></td>
+        <td style="text-align: center;"><i class="icon-bell"></i> Events</td>
+        <td class="status-error"><i class="icon-circle-arrow-down"></i> -15%</td>
+      </tr>
+
+      <tr>
+        <td style="width: 60px;"><div class="sparkline" data-color="green"><canvas width="59" height="18" style="display: inline-block; width: 59px; height: 18px; vertical-align: top;"></canvas></div></td>
+        <td style="text-align: center;"><i class="icon-money"></i> Income</td>
+        <td class="status-success"><i class="icon-circle-arrow-up"></i> +20%</td>
+      </tr>
+
+      </tbody>
+    </table>
+
+
+  </div>
+</div>
+
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="box">
+
+      <div class="box-header">
+        <ul class="nav nav-tabs nav-tabs-left">
+          <li class="active"><a href="#home" data-toggle="tab"><i class="icon-home"></i></a></li>
+          <li><a href="#messages" data-toggle="tab"><i class="icon-comments-alt"></i> <span>Messages</span></a></li>
+          <li><a href="#settings" data-toggle="tab"><i class="icon-cog"></i> <span>Settings</span></a></li>
+        </ul>
+
+        <div class="title">Settings</div>
+      </div>
+
+      <div class="box-content">
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <ul class="box-list">
+
+              <li>
+                <span><i class="icon-user"></i> Allow user registration</span>
+                <span class="pull-right">
+                  <div class="ibutton-container" style="width: 69px;"><input class="iButton-icons-tab" type="checkbox" checked="checked"><div class="ibutton-handle" style="width: 30px; left: 34px;"><div class="ibutton-handle-right"><div class="ibutton-handle-middle"></div></div></div><div class="ibutton-label-off" style="width: 64px;"><span style="margin-right: -34px;"><label><i class="icon-remove"></i></label></span></div><div class="ibutton-label-on" style="width: 38px;"><span style="margin-left: 0px;"><label><i class="icon-ok"></i></label></span></div><div class="ibutton-padding-left"></div><div class="ibutton-padding-right"></div></div>
+                </span>
+              </li>
+
+              <li>
+                <span><i class="icon-money"></i> Auto accept new orders</span>
+                <span class="pull-right">
+                  <div class="ibutton-container" style="width: 69px;"><input class="iButton-icons-tab" type="checkbox"><div class="ibutton-handle" style="width: 30px; left: 0px;"><div class="ibutton-handle-right"><div class="ibutton-handle-middle"></div></div></div><div class="ibutton-label-off" style="width: 64px;"><span style="margin-right: 0px;"><label><i class="icon-remove"></i></label></span></div><div class="ibutton-label-on" style="width: 4px;"><span style="margin-left: -34px;"><label><i class="icon-ok"></i></label></span></div><div class="ibutton-padding-left"></div><div class="ibutton-padding-right"></div></div>
+                </span>
+              </li>
+
+              <li>
+                <span><i class="icon-upload"></i> Allow user uploads</span>
+                <span class="pull-right">
+                  <div class="ibutton-container" style="width: 69px;"><input class="iButton-icons-tab" type="checkbox" checked="checked"><div class="ibutton-handle" style="width: 30px; left: 34px;"><div class="ibutton-handle-right"><div class="ibutton-handle-middle"></div></div></div><div class="ibutton-label-off" style="width: 64px;"><span style="margin-right: -34px;"><label><i class="icon-remove"></i></label></span></div><div class="ibutton-label-on" style="width: 38px;"><span style="margin-left: 0px;"><label><i class="icon-ok"></i></label></span></div><div class="ibutton-padding-left"></div><div class="ibutton-padding-right"></div></div>
+                </span>
+              </li>
+
+              <li>
+                <p class="text-center">Upload Max Size <span class="upload-max-size">40 MB</span></p>
+                <div class="hpadded">
+                  <div class="ranged-slider-ui step ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 20%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 20%;"></a></div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="tab-pane" id="messages">
+            <ul class="box-list">
+              <li>
+                <span><i class="icon-envelope"></i> Alert incoming messages</span>
+                <span class="pull-right">
+                  <input class="iButton-icons-tab" type="checkbox" checked="checked">
+                </span>
+              </li>
+
+              <li>
+                <span><i class="icon-reply"></i> Auto Reply on leave</span>
+                <span class="pull-right">
+                  <input class="iButton-icons-tab" type="checkbox" checked="checked">
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-pane" id="settings">
+
+            <ul class="box-list">
+              <li>
+                <span><i class="icon-user"></i> MOAR</span>
+                <span class="pull-right">
+                  <input class="iButton-icons-tab" type="checkbox" checked="checked">
+                </span>
+              </li>
+
+              <li>
+                <span><i class="icon-money"></i> SETTINGS</span>
+                <span class="pull-right">
+                  <input class="iButton-icons-tab" type="checkbox">
+                </span>
+              </li>
+
+              <li>
+                <span><i class="icon-upload"></i> HERE</span>
+                <span class="pull-right">
+                  <input class="iButton-icons-tab" type="checkbox" checked="checked">
+                </span>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="box-footer padded">
+          <span class="pull-right">
+            <a href="#" class="btn btn-blue btn-sm">Save</a>
+            <a href="#" class="btn btn-default btn-sm">Cancel</a>
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- find me in partials/small_chat -->
+
+<div class="box">
+  <div class="box-header">
+    <div class="title">Chat box</div>
+  </div>
+
+  <div class="box-content">
+
+    <ul class="chat-box">
+
+      <ul class="chat-box">
+
+        <li class="arrow-box-left">
+
+          <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar1.jpg"></div>
+          <div class="info">
+            <span class="name"><strong>Michael</strong> <span class="badge badge-blue">designer</span></span>
+            <span class="time">8 minutes ago</span>
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        </li>
+
+        <li class="divider"></li>
+
+        <li class="arrow-box-right gray">
+          <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+          <div class="info">
+            <span class="name"><strong>Alex</strong> <span class="badge badge-gray">developer</span></span>
+            <span class="time">3 minutes ago</span>
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </li>
+
+      </ul>
+
+    </ul>
+  </div>
+
+  <p class="note text-center">Last message received at 14:55</p>
+
+  <hr class="divider">
+
+  <div class="box-footer flat padded">
+    <!-- chat send message module. you can use it with or without a form/submit button or just a link -->
+    <form>
+      <div class="input-group addon-right">
+        <input type="text" placeholder="Standard bootstrap append input here">
+        <ul class="input-group-addon">
+          <li>
+            <a href="#"><i class="icon-paper-clip"></i></a>
+          </li>
+          <li>
+            <button class="btn btn-blue">Send</button>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+
+  </div>
+</div>
+<!--#include file="module/footer.shtml" -->

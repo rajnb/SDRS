@@ -1,0 +1,706 @@
+<!--#include file="module/header.shtml" -->
+<!--#include file="module/browse.shtml" -->
+<!--#include file="module/sidebar.shtml" -->
+<div class="main-content">
+  <!--#include file="module/brand.shtml" -->
+
+  <div class="container padded">
+    <div class="row">
+
+      <!-- Breadcrumb line -->
+
+      <div id="breadcrumbs">
+        <div class="breadcrumb-button blue">
+          <span class="breadcrumb-label"><i class="icon-home"></i> Home</span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+
+        
+        <div class="breadcrumb-button">
+          <span class="breadcrumb-label">
+            <i class="icon-beaker"></i> UI Lab
+          </span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+        
+
+        <div class="breadcrumb-button">
+          <span class="breadcrumb-label">
+            <i class="icon-beaker"></i> General elements
+          </span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <div class="box-header">
+        <div class="title">Sliders</div>
+        <ul class="box-toolbar">
+          <li><span class="label label-red">5</span></li>
+        </ul>
+      </div>
+      <div class="box-content">
+        <!-- find me in partials/jquery_sliders -->
+
+        <div class="row box-section">
+          <div class="col-md-3">Simple Slider</div>
+          <div class="col-md-9">
+            <div class="normal-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+          </div>
+        </div>
+
+        <div class="row box-section">
+          <div class="col-md-3">Ranged Slider (only min)</div>
+          <div class="col-md-9">
+            <div class="ranged-slider-ui only-min ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 13.333333333333334%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 13.333333333333334%;"></a></div>
+          </div>
+        </div>
+
+        <div class="row box-section">
+          <div class="col-md-3">Ranged Slider (only max)</div>
+          <div class="col-md-9">
+            <div class="ranged-slider-ui only-max ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 20%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 80%;"></a></div>
+          </div>
+        </div>
+
+        <div class="row box-section">
+          <div class="col-md-3">Ranged Slider</div>
+          <div class="col-md-9">
+            <div class="ranged-slider-ui normal ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 13.333333333333334%; width: 70.00000000000001%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 13.333333333333334%;"></a><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 83.33333333333334%;"></a></div>
+          </div>
+        </div>
+
+        <div class="row box-section">
+          <div class="col-md-3">Vertical sliders</div>
+          <div class="col-md-9">
+            <div class="ranged-slider-ui vertical-bars">
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 70%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 70%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 60%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 60%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 50%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 50%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 40%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 40%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 30%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 30%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 40%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 40%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 50%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 50%;"></a></span>
+              <span class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="height: 60%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="bottom: 60%;"></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-header">
+        <div class="title">Photo Gallery</div>
+        <ul class="box-toolbar">
+          <li>
+            <form class="fill-up" style="width: 100px">
+              <label class="input-with-submit">
+                <input type="text" placeholder="Search...">
+                <button type="submit" class="submit-icon">
+                  <i class="icon-search"></i>
+                </button>
+              </label>
+            </form>
+          </li>
+        </ul>
+      </div>
+
+      <div class="box-content">
+        <!-- find me in partials/gallery -->
+
+        <div id="thumbs">
+          <a href="http://farm8.staticflickr.com/7013/6754656011_3de2cc73a2_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7013/6754656011_3de2cc73a2_m.jpg)" title="Lion Rock"></a>
+          <a href="http://farm8.staticflickr.com/7042/6895252645_45f5dfffaa_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7042/6895252645_45f5dfffaa_m.jpg)" title="Holsten Gate"></a>
+          <a href="http://farm8.staticflickr.com/7183/6943277737_21b521659c_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7183/6943277737_21b521659c_m.jpg)" title="Blue Hour"></a>
+          <a href="http://farm8.staticflickr.com/7047/7000951429_5eae078a62_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7047/7000951429_5eae078a62_m.jpg)" title="Waikato Landscape"></a>
+          <a href="http://farm6.staticflickr.com/5346/7051537899_efc7a44830_z.jpg" style="background-image:url(http://farm6.staticflickr.com/5346/7051537899_efc7a44830_m.jpg)" title="Tauranga Bridge"></a>
+          <a href="http://farm8.staticflickr.com/7268/6951148260_440661b4d1_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7268/6951148260_440661b4d1_m.jpg)" title="East Coast"></a>
+          <a href="http://farm8.staticflickr.com/7259/6930112984_5fcc076288_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7259/6930112984_5fcc076288_m.jpg)" title="Cathedral Cove"></a>
+          <a href="http://farm8.staticflickr.com/7276/6886626710_047cd03acb_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7276/6886626710_047cd03acb_m.jpg)" title="The Pond"></a>
+          <a href="http://farm8.staticflickr.com/7020/6683299491_f2b5f6aa8b_z.jpg" style="background-image:url(http://farm8.staticflickr.com/7020/6683299491_f2b5f6aa8b_m.jpg)" title="Good Night"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <!-- find me in partials/accordions -->
+
+        <div class="accordion" id="accordion2">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                Collapsible Group Item #1
+              </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+              <div class="accordion-inner padded">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                Collapsible Group Item #2
+              </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+              <div class="accordion-inner padded">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                Collapsible Group Item #3
+              </a>
+            </div>
+            <div id="collapseThree" class="accordion-body collapse">
+              <div class="accordion-inner padded">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <span class="title">Growl</span>
+            <ul class="box-toolbar">
+              <li>
+                <div class="ibutton-container" style="width: 69px;"><input class="iButton-icons" type="checkbox"><div class="ibutton-handle" style="width: 30px; left: 0px;"><div class="ibutton-handle-right"><div class="ibutton-handle-middle"></div></div></div><div class="ibutton-label-off" style="width: 64px;"><span style="margin-right: 0px;"><label><i class="icon-remove"></i></label></span></div><div class="ibutton-label-on" style="width: 4px;"><span style="margin-left: -34px;"><label><i class="icon-ok"></i></label></span></div><div class="ibutton-padding-left"></div><div class="ibutton-padding-right"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="box-content padded">
+            <a class="growl-info btn btn-blue" href="#">Info</a>
+            <a class="growl-success btn btn-green" href="#">Success</a>
+            <a class="growl-warn btn btn-gray" href="#">Warning</a>
+            <a class="growl-error btn btn-red" href="#">Error</a>
+          </div>
+        </div>
+
+        <div class="box">
+
+          <div class="box-header">
+            <ul class="nav nav-tabs nav-tabs-left">
+              <li class="active"><a href="#labels" data-toggle="tab">Labels</a></li>
+              <li><a href="#badges" data-toggle="tab">Badges</a></li>
+            </ul>
+          </div>
+
+          <div class="box-content padded">
+            <div class="tab-content">
+              <div class="tab-pane active" id="labels">
+                
+                <span style="margin-right: 10px" class="label label-blue">10</span>
+                
+                <span style="margin-right: 10px" class="label label-gray">15</span>
+                
+                <span style="margin-right: 10px" class="label label-green">20</span>
+                
+                <span style="margin-right: 10px" class="label label-red">25</span>
+                
+                <span style="margin-right: 10px" class="label label-dark-red">30</span>
+                
+                <span style="margin-right: 10px" class="label label-black">35</span>
+                
+              </div>
+              <div class="tab-pane" id="badges" style="padding: 5px">
+                
+                <span style="margin-right: 10px" class="badge badge-blue">10</span>
+                
+                <span style="margin-right: 10px" class="badge badge-gray">15</span>
+                
+                <span style="margin-right: 10px" class="badge badge-green">20</span>
+                
+                <span style="margin-right: 10px" class="badge badge-red">25</span>
+                
+                <span style="margin-right: 10px" class="badge badge-dark-red">30</span>
+                
+                <span style="margin-right: 10px" class="badge badge-black">35</span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert alert-block">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <h4>Warning!</h4>
+          Best check yo self, you're not...
+        </div>
+
+        <div class="alert alert-error">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <strong>Oh snap!</strong> Change a few things up and try submitting again.
+        </div>
+
+        <div class="alert alert-info">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+        </div>
+
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <strong>Well done!</strong> You successfully read this important alert message.
+        </div>
+
+        <div class="text-center">
+          <ul class="pagination pagination-lg">
+            <li><a href="#">Prev</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+
+        <div class="text-center">
+          <ul class="pagination">
+            <li><a href="#">Prev</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+
+        <div class="text-center">
+          <ul class="pagination pagination-sm">
+            <li><a href="#">Prev</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="active"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+
+        <div class="text-center">
+          <ul class="pagination pagination-xs">
+            <li><a href="#">Prev</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="active"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="col-md-6">
+
+        <div class="box core-animate-bars">
+          <div class="box-header">
+            <div class="title">Progress bars</div>
+            <ul class="box-toolbar">
+              <li class="toolbar-link">
+                <a href="#">
+                  <i class="icon-refresh"></i> Click to randomize bars
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="box-content">
+            
+            <div class="box-section">
+
+              
+
+              
+              
+              <div class="progress ">
+                <div class="progress-bar progress-blue tip" title="" data-percent="36" style="width: 36%;" data-original-title="36"><span class="sr-only">36% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-blue tip" title="" data-percent="36" style="width: 36%;" data-original-title="36"><span class="sr-only">36% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped active">
+                <div class="progress-bar progress-blue tip" title="" data-percent="26" style="width: 26%;" data-original-title="26"><span class="sr-only">26% Complete</span></div>
+              </div>
+              
+
+            </div>
+            
+            <div class="box-section">
+
+              
+
+              
+              
+              <div class="progress ">
+                <div class="progress-bar progress-green tip" title="" data-percent="10" style="width: 10%;" data-original-title="10"><span class="sr-only">10% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-green tip" title="" data-percent="49" style="width: 49%;" data-original-title="49"><span class="sr-only">49% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped active">
+                <div class="progress-bar progress-green tip" title="" data-percent="28" style="width: 28%;" data-original-title="28"><span class="sr-only">28% Complete</span></div>
+              </div>
+              
+
+            </div>
+            
+            <div class="box-section">
+
+              
+
+              
+              
+              <div class="progress ">
+                <div class="progress-bar progress-orange tip" title="" data-percent="41" style="width: 41%;" data-original-title="41"><span class="sr-only">41% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-orange tip" title="" data-percent="24" style="width: 24%;" data-original-title="24"><span class="sr-only">24% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped active">
+                <div class="progress-bar progress-orange tip" title="" data-percent="21" style="width: 21%;" data-original-title="21"><span class="sr-only">21% Complete</span></div>
+              </div>
+              
+
+            </div>
+            
+            <div class="box-section">
+
+              
+
+              
+              
+              <div class="progress ">
+                <div class="progress-bar progress-black tip" title="" data-percent="16" style="width: 16%;" data-original-title="16"><span class="sr-only">16% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-black tip" title="" data-percent="22" style="width: 22%;" data-original-title="22"><span class="sr-only">22% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped active">
+                <div class="progress-bar progress-black tip" title="" data-percent="52" style="width: 52%;" data-original-title="52"><span class="sr-only">52% Complete</span></div>
+              </div>
+              
+
+            </div>
+            
+            <div class="box-section">
+
+              
+
+              
+              
+              <div class="progress ">
+                <div class="progress-bar progress-red tip" title="" data-percent="18" style="width: 18%;" data-original-title="18"><span class="sr-only">18% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-red tip" title="" data-percent="43" style="width: 43%;" data-original-title="43"><span class="sr-only">43% Complete</span></div>
+              </div>
+              
+              
+              <div class="progress progress-striped active">
+                <div class="progress-bar progress-red tip" title="" data-percent="48" style="width: 48%;" data-original-title="48"><span class="sr-only">48% Complete</span></div>
+              </div>
+              
+
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <span class="title">Tooltips</span>
+            <ul class="box-toolbar">
+              <li>
+                <div class="ibutton-container" style="width: 69px;"><input class="iButton-icons" type="checkbox" checked="checked"><div class="ibutton-handle" style="width: 30px; left: 34px;"><div class="ibutton-handle-right"><div class="ibutton-handle-middle"></div></div></div><div class="ibutton-label-off" style="width: 64px;"><span style="margin-right: -34px;"><label><i class="icon-remove"></i></label></span></div><div class="ibutton-label-on" style="width: 38px;"><span style="margin-left: 0px;"><label><i class="icon-ok"></i></label></span></div><div class="ibutton-padding-left"></div><div class="ibutton-padding-right"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="box-content padded">
+            <a href="#" class="btn btn-green" rel="tooltip" data-placement="top" data-original-title="Tooltip on top">on top</a>
+            <a href="#" class="btn btn-green" rel="tooltip" data-placement="right" title="" data-original-title="Tooltip on right">on right</a>
+            <a href="#" class="btn btn-green" rel="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">on bottom</a>
+            <a href="#" class="btn btn-green" rel="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">on left</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <span class="title">Modals with custom content</span>
+            <ul class="box-toolbar">
+              <li><span class="label label-green">+98</span></li>
+            </ul>
+          </div>
+
+          <div class="box-content padded">
+            <a data-toggle="modal" href="#modal-simple" class="btn btn-blue"><i class="icon-comments-alt"></i> Simple modal</a>
+            <a data-toggle="modal" href="#modal-form" class="btn btn-blue"><i class="icon-external-link"></i> Modal with form</a>
+            <a data-toggle="modal" href="#modal-tables" class="btn btn-blue"><i class="icon-table"></i> Modal with tables</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <ul class="nav nav-tabs nav-tabs-left">
+              <li class="active"><a href="#home" data-toggle="tab"><i class="icon-home"></i></a></li>
+              <li><a href="#messages" data-toggle="tab"><i class="icon-comments-alt"></i> <span>Messages</span></a></li>
+              <li><a href="#settings" data-toggle="tab"><i class="icon-cog"></i> <span>Settings</span></a></li>
+            </ul>
+
+            <div class="title">Left tabs</div>
+          </div>
+
+          <div class="box-content padded">
+            <div class="tab-content">
+              <div class="tab-pane active" id="home">Going home</div>
+              <div class="tab-pane" id="profile">And now to the profile</div>
+              <div class="tab-pane" id="messages">No new messages</div>
+              <div class="tab-pane" id="settings">Changing the settings</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-header">
+            <div class="title">Right tabs</div>
+
+            <ul class="nav nav-tabs nav-tabs-right">
+              <li class="active"><a href="#home2" data-toggle="tab"><i class="icon-home"></i></a></li>
+              <li><a href="#messages2" data-toggle="tab"><i class="icon-comments-alt"></i> <span>Messages</span></a></li>
+              <li><a href="#settings2" data-toggle="tab"><i class="icon-cog"></i> <span>Settings</span></a></li>
+            </ul>
+
+          </div>
+
+          <div class="box-content padded">
+            <div class="tab-content">
+              <div class="tab-pane active" id="home2">Going home</div>
+              <div class="tab-pane" id="profile2">And now to the profile</div>
+              <div class="tab-pane" id="messages2">No new messages</div>
+              <div class="tab-pane" id="settings2">Changing the settings</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- find me in partials/modal_simple -->
+
+    <div id="modal-simple" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body…</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-blue">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal --><!-- find me in partials/modal_form -->
+
+    <div id="modal-form" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h6 id="modal-formLabel">Modal Heading</h6>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal fill-up separate-sections">
+              <div>
+                <label>Enter your name here</label>
+                <input type="text" name="regular" placeholder="Your name">
+              </div>
+
+              <div class="divider"><span></span></div>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <label>And a dropdown with search:</label>
+                  <div class="select2-container chzn-select" id="s2id_autogen1"><a href="javascript:void(0)" onclick="return false;" class="select2-choice" tabindex="-1">   <span>Amaranth</span><abbr class="select2-search-choice-close"></abbr>   <div><b></b></div></a><input class="select2-focusser select2-offscreen" type="text" id="s2id_autogen2"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input">   </div>   <ul class="select2-results">   </ul></div></div><select class="chzn-select select2-offscreen" name="colors" tabindex="-1">
+                  <option value="Amaranth">Amaranth</option>
+                  <option value="Alabama Crimson">Alabama Crimson</option>
+                  <option value="Air Force blue (RAF)">Air Force blue (RAF)</option>
+                  <option value="Alloy orange">Alloy orange</option>
+                  <option value="Alizarin crimson">Alizarin crimson</option>
+                  <option value="Anti-flash white">Anti-flash white</option>
+                  <option value="Amethyst">Amethyst</option>
+                  <option value="Aero blue">Aero blue</option>
+                  <option value="Android Green">Android Green</option>
+                  <option value="Antique brass">Antique brass</option>
+                  <option value="Air superiority blue">Air superiority blue</option>
+                  <option value="Amber">Amber</option>
+                  <option value="American rose">American rose</option>
+                  <option value="Alice blue">Alice blue</option>
+                  <option value="Amazon">Amazon</option>
+                  <option value="Antique bronze">Antique bronze</option>
+                  <option value="SAE/ECE Amber (color)">SAE/ECE Amber (color)</option>
+                  <option value="Air Force blue (USAF)">Air Force blue (USAF)</option>
+                  <option value="Antique fuchsia ">Antique fuchsia </option>
+                  <option value="Almond">Almond</option></select>
+                </div>
+                <div class="col-lg-6">
+                  <label>or without search...</label>
+                  <div class="selector fixedWidth"><span style="-webkit-user-select: none;">Air Force blue (USAF)</span><select class="uniform" name="colors">
+                    <option value="Air Force blue (USAF)">Air Force blue (USAF)</option>
+                    <option value="Alizarin crimson">Alizarin crimson</option>
+                    <option value="Amazon">Amazon</option>
+                    <option value="American rose">American rose</option>
+                    <option value="Anti-flash white">Anti-flash white</option>
+                    <option value="Air Force blue (RAF)">Air Force blue (RAF)</option>
+                    <option value="Antique bronze">Antique bronze</option>
+                    <option value="Antique brass">Antique brass</option>
+                    <option value="SAE/ECE Amber (color)">SAE/ECE Amber (color)</option>
+                    <option value="Aero blue">Aero blue</option>
+                    <option value="Almond">Almond</option>
+                    <option value="Amber">Amber</option>
+                    <option value="Alloy orange">Alloy orange</option>
+                    <option value="Amaranth">Amaranth</option>
+                    <option value="Android Green">Android Green</option>
+                    <option value="Alice blue">Alice blue</option>
+                    <option value="Antique fuchsia ">Antique fuchsia </option>
+                    <option value="Air superiority blue">Air superiority blue</option>
+                    <option value="Alabama Crimson">Alabama Crimson</option>
+                    <option value="Amethyst">Amethyst</option></select></div>
+                  </div>
+                </div>
+
+                <div class="divider"><span></span></div>
+
+                <div>
+                  <textarea rows="4" placeholder="Enter your comments here"></textarea>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div>
+                      <div class="icheckbox_flat-aero checked" style="position: relative;"><input type="checkbox" class="icheck" checked="" id="icheckModal1" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"></ins></div>
+                      <label for="icheckModal1">The number one option</label>
+                    </div>
+
+                    <div>
+                      <div class="icheckbox_flat-aero" style="position: relative;"><input type="checkbox" class="icheck" id="icheckModal2" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"></ins></div>
+                      <label for="icheckModal2">The number two option</label>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div>
+                      <div class="iradio_flat-aero checked" style="position: relative;"><input type="radio" name="optionsRadios" class="icheck" checked="" id="iradioModal1" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"></ins></div>
+                      <label for="iradioModal1">The number one option</label>
+                    </div>
+
+                    <div>
+                      <div class="iradio_flat-aero" style="position: relative;"><input type="radio" name="optionsRadios" class="icheck" id="iradioModal2" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"></ins></div>
+                      <label for="iradioModal2">The number two option</label>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Close</button>
+              <button class="btn btn-blue">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- find me in partials/modal_tables -->
+
+      <div id="modal-tables" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h6 id="modal-tablesLabel">Modal Heading</h6>
+            </div>
+            <div class="modal-body nopadding">
+              <!-- find me in partials/data_tables_custom -->
+
+              <div id="dataTables">
+
+                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="table-header"><div class="dataTables_filter" id="DataTables_Table_0_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_0"></label></div><div id="DataTables_Table_0_length" class="dataTables_length"><label>Show <div class="selector fixedWidth"><span style="-webkit-user-select: none;">10</span><select size="1" name="DataTables_Table_0_length" aria-controls="DataTables_Table_0"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></div> entries</label></div></div><table cellpadding="0" cellspacing="0" border="0" class="dTable-small responsive dataTable" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info">
+                <thead>
+                  <tr role="row"><th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending"><div>Rendering engine</div></th><th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending"><div>Browser</div></th><th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending"><div>Platform(s)</div></th><th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending"><div>Engine version</div></th></tr>
+                </thead>
+
+                <tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd">
+                  <td class="  sorting_1">Gecko</td>
+                  <td class=" ">Firefox 1.0</td>
+                  <td class=" ">Win 98+ / OSX.2+</td>
+                  <td class="center ">1.7</td>
+                </tr><tr class="even">
+                <td class="  sorting_1">Gecko</td>
+                <td class=" ">Firefox 1.5</td>
+                <td class=" ">Win 98+ / OSX.2+</td>
+                <td class="center ">1.8</td>
+              </tr><tr class="odd">
+              <td class="  sorting_1">Gecko</td>
+              <td class=" ">Firefox 2.0</td>
+              <td class=" ">Win 98+ / OSX.2+</td>
+              <td class="center ">1.8</td>
+            </tr><tr class="even">
+            <td class="  sorting_1">Gecko</td>
+            <td class=" ">Firefox 3.0</td>
+            <td class=" ">Win 2k+ / OSX.3+</td>
+            <td class="center ">1.9</td>
+          </tr><tr class="odd">
+          <td class="  sorting_1">Gecko</td>
+          <td class=" ">Camino 1.0</td>
+          <td class=" ">OSX.2+</td>
+          <td class="center ">1.8</td>
+        </tr></tbody></table><div class="table-footer"><div class="dataTables_info" id="DataTables_Table_0_info">Showing 1 to 5 of 57 entries</div><div class="dataTables_paginate paging_full_numbers" id="DataTables_Table_0_paginate"><a tabindex="0" class="first paginate_button paginate_button_disabled" id="DataTables_Table_0_first">First</a><a tabindex="0" class="previous paginate_button paginate_button_disabled" id="DataTables_Table_0_previous">Previous</a><span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a><a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a><a tabindex="0" class="paginate_button">5</a></span><a tabindex="0" class="next paginate_button" id="DataTables_Table_0_next">Next</a><a tabindex="0" class="last paginate_button" id="DataTables_Table_0_last">Last</a></div></div></div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-default" data-dismiss="modal">Close</button>
+      <button class="btn btn-blue">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</div>
+</div>
+<!--#include file="module/footer.shtml" -->

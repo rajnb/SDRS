@@ -1,0 +1,469 @@
+<!--#include file="module/header.shtml" -->
+<!--#include file="module/browse.shtml" -->
+<!--#include file="module/sidebar.shtml" -->
+<div class="main-content">
+  <!--#include file="module/brand.shtml" -->
+
+  <div class="container padded">
+    <div class="row">
+
+      <!-- Breadcrumb line -->
+
+      <div id="breadcrumbs">
+        <div class="breadcrumb-button blue">
+          <span class="breadcrumb-label"><i class="icon-home"></i> Home</span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+
+        
+
+        <div class="breadcrumb-button">
+          <span class="breadcrumb-label">
+            <i class="icon-dashboard"></i> Dashboard
+          </span>
+          <span class="breadcrumb-arrow"><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+        <!-- find me in partials/action_nav_normal -->
+
+        <!--big normal buttons-->
+        <div class="action-nav-normal">
+
+          <div class="row action-nav-row">
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="New Project">
+                <i class="icon-file-alt"></i>
+                <span>New Project</span>
+              </a>
+              <span class="triangle-button red"><i class="icon-plus"></i></span>
+            </div>
+
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="Messages">
+                <i class="icon-comments-alt"></i>
+                <span>Messages</span>
+              </a>
+              <span class="label label-black">14</span>
+            </div>
+          </div>
+
+          <div class="row action-nav-row">
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="Files">
+                <i class="icon-folder-open-alt"></i>
+                <span>Files</span>
+              </a>
+            </div>
+
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="Users">
+                <i class="icon-user"></i>
+                <span>Users</span>
+              </a>
+              <span class="triangle-button green"><span class="inner">+3</span></span>
+            </div>
+          </div>
+
+          <div class="row action-nav-row">
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="Friends">
+                <i class="icon-facebook-sign"></i>
+                <span>Friends</span>
+              </a>
+            </div>
+
+            <div class="col-sm-6 action-nav-button">
+              <a href="#" title="Followers">
+                <i class="icon-twitter"></i>
+                <span>Followers</span>
+              </a>
+              <span class="triangle-button blue"><span class="inner">+8</span></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <!-- find me in partials/big_chart -->
+
+        <div class="box">
+          <div class="box-header">
+            <div class="title">Charts</div>
+            <ul class="box-toolbar">
+              <li class="toolbar-link">
+                <a href="#" data-toggle="dropdown"><i class="icon-cog"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><i class="icon-plus-sign"></i> Add</a></li>
+                  <li><a href="#"><i class="icon-remove-sign"></i> Remove</a></li>
+                  <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="box-content padded">
+            <div class="row">
+              <div class="col-md-4 separate-sections" style="margin-top: 5px;">
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="dashboard-stats">
+                      <ul class="list-inline">
+                        <li class="glyph"><i class="icon-bolt icon-2x"></i></li>
+                        <li class="count">973,119</li>
+                      </ul>
+
+                      <div class="progress">
+                        <div class="progress-bar progress-blue tip" title="" data-percent="80" data-original-title="80%" style="width: 80%;"></div>
+                      </div>
+
+                      <div class="stats-label">Total Visits</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row" style="margin-top:30px;">
+                  <div class="col-md-6">
+                    <div class="dashboard-stats small">
+                      <ul class="list-inline">
+                        <li class="glyph"><i class="icon-user"></i></li>
+                        <li class="count">8800</li>
+                      </ul>
+                      <div class="progress">
+                        <div class="progress-bar progress-blue tip" title="" data-percent="65" data-original-title="65%" style="width: 65%;"></div>
+                      </div>
+
+                      <div class="stats-label">New Visitors</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="dashboard-stats small">
+                      <ul class="list-inline">
+                        <li class="glyph"><i class="icon-eye-open"></i></li>
+                        <li class="count">25668</li>
+                      </ul>
+                      <div class="progress">
+                        <div class="progress-bar progress-blue tip" title="" data-percent="80" data-original-title="80%" style="width: 80%;"></div>
+                      </div>
+                      <div class="stats-label">Page Views</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-8">
+                <div class="sine-chart" id="xchart-sine"><svg height="186" width="524" class="xchart"><g transform="translate(30,0)"><g class="scale"><g class="axis axisX" transform="translate(0,166)"><g transform="translate(61.5,0)" style="opacity: 1;"><line class="tick" y2="-156" x2="0"></line><text y="3" x="0" dy=".71em" text-anchor="middle">Mon</text></g><g transform="translate(185.5,0)" style="opacity: 1;"><line class="tick" y2="-156" x2="0"></line><text y="3" x="0" dy=".71em" text-anchor="middle">Wed</text></g><g transform="translate(309.5,0)" style="opacity: 1;"><line class="tick" y2="-156" x2="0"></line><text y="3" x="0" dy=".71em" text-anchor="middle">Fri</text></g><g transform="translate(433.5,0)" style="opacity: 1;"><line class="tick" y2="-156" x2="0"></line><text y="3" x="0" dy=".71em" text-anchor="middle">Sun</text></g><path class="domain" d="M20,-156V0H474V-156"></path></g><g class="axis axisY" transform="translate(0,0)"><g transform="translate(0,156)" style="opacity: 1;"><line class="tick" x2="494" y2="0"></line><text x="-3" dy=".32em" text-anchor="end" y="0">0</text></g><g transform="translate(0,81)" style="opacity: 1;"><line class="tick" x2="494" y2="0"></line><text x="-3" dy=".32em" text-anchor="end" y="0">20</text></g><g transform="translate(0,5)" style="opacity: 1;"><line class="tick" x2="494" y2="0"></line><text x="-3" dy=".32em" text-anchor="end" y="0">40</text></g><g transform="translate(0,137)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">5</text></g><g transform="translate(0,118)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">10</text></g><g transform="translate(0,99)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">15</text></g><g transform="translate(0,62)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">25</text></g><g transform="translate(0,43)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">30</text></g><g transform="translate(0,24)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">35</text></g><g transform="translate(0,-70)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">60</text></g><g transform="translate(0,-146)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">80</text></g><g transform="translate(0,-221)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">100</text></g><g transform="translate(0,-297)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">120</text></g><g transform="translate(0,-372)" style="opacity: 0.000001;"><line class="tick" x2="494"></line><text x="-3" dy=".32em" text-anchor="end">140</text></g><path class="domain" d="M494,5H0V156H494"></path></g><g class="axisZero"><line x1="0" x2="504" y1="156" y2="156"></line></g></g><g data-index="2" class=" main l1 bar                                                                                                              color0" transform="translate(2,0)" style="opacity: 1;"><rect width="20" rx="3" ry="3" x="38" height="45" y="111"></rect><rect width="20" rx="3" ry="3" x="100" height="68" y="88"></rect><rect width="20" rx="3" ry="3" x="162" height="30" y="126"></rect><rect width="20" rx="3" ry="3" x="224" height="26" y="130"></rect><rect width="20" rx="3" ry="3" x="286" height="23" y="133"></rect><rect width="20" rx="3" ry="3" x="348" height="45" y="111"></rect><rect width="20" rx="3" ry="3" x="410" height="30" y="126"></rect></g><g data-index="2" class=" main l2 bar                                                                                                              color1" transform="translate(24,0)" style="opacity: 1;"><rect width="20" rx="3" ry="3" x="38" height="109" y="47"></rect><rect width="20" rx="3" ry="3" x="100" height="125" y="31"></rect><rect width="20" rx="3" ry="3" x="162" height="49" y="107"></rect><rect width="20" rx="3" ry="3" x="224" height="60" y="96"></rect><rect width="20" rx="3" ry="3" x="286" height="26" y="130"></rect><rect width="20" rx="3" ry="3" x="348" height="68" y="88"></rect><rect width="20" rx="3" ry="3" x="410" height="30" y="126"></rect></g><g data-index="3" class=" main l1 line                                                                                                                                                                                                                                                                                                                                   color0"><path class="fill" d="M61.5,156C71.83333333333333,156,102.83333333333333,156,123.5,156S164.83333333333334,156,185.5,156S226.83333333333334,156,247.5,156S288.8333333333333,156,309.5,156S350.8333333333333,156,371.5,156S423.1666666666667,156,433.5,156L433.5,126C423.29672917201816,127.15198219025602,391.29632859872083,128.84915690671983,371.5,133S329.86860884986004,154.46394461893468,309.5,152S267.29632859872083,122.15084309328017,247.5,118S206.14518364518364,126.66597366597367,185.5,126S143.23118079271447,118.29630549518782,123.5,114S71.26193987056607,101.3617596461047,61.5,99Z" style="opacity: 1;"></path><path class="line" d="M61.5,99C71.26193987056607,101.3617596461047,103.76881920728552,109.70369450481218,123.5,114S164.85481635481636,125.33402633402633,185.5,126S227.70367140127917,113.84915690671983,247.5,118S289.13139115013996,149.53605538106532,309.5,152S351.70367140127917,137.15084309328017,371.5,133S423.29672917201816,127.15198219025602,433.5,126" style="opacity: 1;"></path><circle cx="61.5" cy="99" r="5" style="opacity: 1;"></circle><circle cx="123.5" cy="114" r="5" style="opacity: 1;"></circle><circle cx="185.5" cy="126" r="5" style="opacity: 1;"></circle><circle cx="247.5" cy="118" r="5" style="opacity: 1;"></circle><circle cx="309.5" cy="152" r="5" style="opacity: 1;"></circle><circle cx="371.5" cy="133" r="5" style="opacity: 1;"></circle><circle cx="433.5" cy="126" r="5" style="opacity: 1;"></circle></g><g data-index="3" class=" main l2 line                                                                                                                                                                                                                                                                                                                                   color1"><path class="fill" d="M61.5,156C71.83333333333333,156,102.83333333333333,156,123.5,156S164.83333333333334,156,185.5,156S226.83333333333334,156,247.5,156S288.8333333333333,156,309.5,156S350.8333333333333,156,371.5,156S423.1666666666667,156,433.5,156L433.5,126C425.988401412002,121.39611699445285,392.14518364518364,87.33402633402633,371.5,88S330.08100172711573,128.67219343696027,309.5,130S267.53508123613835,99.55722720783979,247.5,96S202.00989363348575,115.28419462810713,185.5,107S140.2459246767847,39.102866779089375,123.5,31S71.18813008130081,44.499837398373984,61.5,47Z" style="opacity: 1;"></path><path class="line" d="M61.5,47C71.18813008130081,44.499837398373984,106.75407532321529,22.897133220910625,123.5,31S168.99010636651425,98.71580537189287,185.5,107S227.46491876386162,92.44277279216021,247.5,96S288.91899827288427,131.32780656303973,309.5,130S350.85481635481636,88.66597366597367,371.5,88S425.988401412002,121.39611699445285,433.5,126" style="opacity: 1;"></path><circle cx="61.5" cy="47" r="5" style="opacity: 1;"></circle><circle cx="123.5" cy="31" r="5" style="opacity: 1;"></circle><circle cx="185.5" cy="107" r="5" style="opacity: 1;"></circle><circle cx="247.5" cy="96" r="5" style="opacity: 1;"></circle><circle cx="309.5" cy="130" r="5" style="opacity: 1;"></circle><circle cx="371.5" cy="88" r="5" style="opacity: 1;"></circle><circle cx="433.5" cy="126" r="5" style="opacity: 1;"></circle></g></g></svg></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <div class="box-header">
+            <div class="title">Full calendar</div>
+          </div>
+
+          <div class="box-content">
+            <div id="calendar" class="fc"><table class="fc-header" style="width:100%"><tbody><tr><td class="fc-header-left"><span class="fc-button fc-button-prev fc-state-default fc-corner-left"><span class="fc-button-inner"><span class="fc-button-content">&nbsp;◄&nbsp;</span><span class="fc-button-effect"><span></span></span></span></span><span class="fc-button fc-button-next fc-state-default fc-corner-right"><span class="fc-button-inner"><span class="fc-button-content">&nbsp;►&nbsp;</span><span class="fc-button-effect"><span></span></span></span></span></td><td class="fc-header-center"><span class="fc-header-title"><h2>March 2014</h2></span></td><td class="fc-header-right"><span class="fc-button fc-button-month fc-state-default fc-corner-left fc-state-active"><span class="fc-button-inner"><span class="fc-button-content">month</span><span class="fc-button-effect"><span></span></span></span></span><span class="fc-button fc-button-agendaWeek fc-state-default"><span class="fc-button-inner"><span class="fc-button-content">week</span><span class="fc-button-effect"><span></span></span></span></span><span class="fc-button fc-button-agendaDay fc-state-default fc-corner-right"><span class="fc-button-inner"><span class="fc-button-content">day</span><span class="fc-button-effect"><span></span></span></span></span></td></tr></tbody></table><div class="fc-content" style="position: relative; min-height: 1px;"><div class="fc-view fc-view-month fc-grid" style="position: relative;" unselectable="on"><table class="fc-border-separate" style="width:100%" cellspacing="0"><thead><tr class="fc-first fc-last"><th class="fc-sun fc-widget-header fc-first" style="width: 77px;">Sun</th><th class="fc-mon fc-widget-header" style="width: 77px;">Mon</th><th class="fc-tue fc-widget-header" style="width: 77px;">Tue</th><th class="fc-wed fc-widget-header" style="width: 77px;">Wed</th><th class="fc-thu fc-widget-header" style="width: 77px;">Thu</th><th class="fc-fri fc-widget-header" style="width: 77px;">Fri</th><th class="fc-sat fc-widget-header fc-last">Sat</th></tr></thead><tbody><tr class="fc-week0 fc-first"><td class="fc-sun fc-widget-content fc-day0 fc-first fc-other-month"><div style="min-height: 61px;"><div class="fc-day-number">23</div><div class="fc-day-content"><div style="position: relative; height: 48px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day1 fc-other-month"><div><div class="fc-day-number">24</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day2 fc-other-month"><div><div class="fc-day-number">25</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day3 fc-other-month"><div><div class="fc-day-number">26</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day4 fc-other-month"><div><div class="fc-day-number">27</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day5 fc-other-month"><div><div class="fc-day-number">28</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day6 fc-last"><div><div class="fc-day-number">1</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr><tr class="fc-week1"><td class="fc-sun fc-widget-content fc-day7 fc-first"><div style="min-height: 61px;"><div class="fc-day-number">2</div><div class="fc-day-content"><div style="position: relative; height: 81px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day8"><div><div class="fc-day-number">3</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day9"><div><div class="fc-day-number">4</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day10 fc-state-highlight fc-today"><div><div class="fc-day-number">5</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day11"><div><div class="fc-day-number">6</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day12"><div><div class="fc-day-number">7</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day13 fc-last"><div><div class="fc-day-number">8</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr><tr class="fc-week2"><td class="fc-sun fc-widget-content fc-day14 fc-first"><div style="min-height: 61px;"><div class="fc-day-number">9</div><div class="fc-day-content"><div style="position: relative; height: 57px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day15"><div><div class="fc-day-number">10</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day16"><div><div class="fc-day-number">11</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day17"><div><div class="fc-day-number">12</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day18"><div><div class="fc-day-number">13</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day19"><div><div class="fc-day-number">14</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day20 fc-last"><div><div class="fc-day-number">15</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr><tr class="fc-week3"><td class="fc-sun fc-widget-content fc-day21 fc-first"><div style="min-height: 61px;"><div class="fc-day-number">16</div><div class="fc-day-content"><div style="position: relative; height: 0px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day22"><div><div class="fc-day-number">17</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day23"><div><div class="fc-day-number">18</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day24"><div><div class="fc-day-number">19</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day25"><div><div class="fc-day-number">20</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day26"><div><div class="fc-day-number">21</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day27 fc-last"><div><div class="fc-day-number">22</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr><tr class="fc-week4"><td class="fc-sun fc-widget-content fc-day28 fc-first"><div style="min-height: 61px;"><div class="fc-day-number">23</div><div class="fc-day-content"><div style="position: relative; height: 24px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day29"><div><div class="fc-day-number">24</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day30"><div><div class="fc-day-number">25</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day31"><div><div class="fc-day-number">26</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day32"><div><div class="fc-day-number">27</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day33"><div><div class="fc-day-number">28</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day34 fc-last"><div><div class="fc-day-number">29</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr><tr class="fc-week5 fc-last"><td class="fc-sun fc-widget-content fc-day35 fc-first"><div style="min-height: 65px;"><div class="fc-day-number">30</div><div class="fc-day-content"><div style="position: relative; height: 0px;">&nbsp;</div></div></div></td><td class="fc-mon fc-widget-content fc-day36"><div><div class="fc-day-number">31</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-tue fc-widget-content fc-day37 fc-other-month"><div><div class="fc-day-number">1</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-wed fc-widget-content fc-day38 fc-other-month"><div><div class="fc-day-number">2</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-thu fc-widget-content fc-day39 fc-other-month"><div><div class="fc-day-number">3</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-fri fc-widget-content fc-day40 fc-other-month"><div><div class="fc-day-number">4</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td><td class="fc-sat fc-widget-content fc-day41 fc-last fc-other-month"><div><div class="fc-day-number">5</div><div class="fc-day-content"><div style="position:relative">&nbsp;</div></div></div></td></tr></tbody></table><div style="position:absolute;z-index:8;top:0;left:0"><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left" style="position: absolute; z-index: 8; left: 388px; width: 156px; top: 58px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-title">Long Event</span></div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 465px; width: 76px; top: 82px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-title">All Day Event</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-right" style="position: absolute; z-index: 8; left: 0px; width: 151px; top: 140px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-title">Long Event</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 234px; width: 71px; top: 140px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-time">10:30a</span><span class="fc-event-title">Meeting</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 311px; width: 71px; top: 140px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-time">7p</span><span class="fc-event-title">Birthday Party</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 234px; width: 71px; top: 181px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-time">12p</span><span class="fc-event-title">Lunch</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 2px; width: 72px; top: 164px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-time">4p</span><span class="fc-event-title">Repeating Event</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><div class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 2px; width: 72px; top: 255px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-time">4p</span><span class="fc-event-title">Repeating Event</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></div><a href="http://google.com/" class="fc-event fc-event-skin fc-event-hori fc-event-draggable fc-corner-left fc-corner-right" style="position: absolute; z-index: 8; left: 388px; width: 153px; top: 408px;"><div class="fc-event-inner fc-event-skin"><span class="fc-event-title">Click for Google</span></div><div class="ui-resizable-handle ui-resizable-e">&nbsp;&nbsp;&nbsp;</div></a></div></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box">
+          <div class="box-header">
+            <span class="title">News with avatars (scrollable box)</span>
+            <ul class="box-toolbar">
+              <li><span class="label label-blue">178</span></li>
+            </ul>
+          </div>
+          <div class="box-content scrollable" style="height: 552px; overflow-y: auto">
+            <!-- find me in partials/news_with_icons -->
+
+            <div class="box-section news with-icons">
+              <div class="avatar blue"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>06</span> jan
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar green"><i class="icon-lightbulb icon-2x"></i></div>
+              <div class="news-time">
+                <span>11</span> feb
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+                <div class="news-text">
+                  Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar purple"><i class="icon-mobile-phone icon-2x"></i></div>
+              <div class="news-time">
+                <span>04</span> mar
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">All about SCSS</a></div>
+                <div class="news-text">
+                  Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+                </div>
+              </div>
+            </div>
+
+
+            <div class="box-section news with-icons">
+              <div class="avatar cyan"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>22</span> dec
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+
+            <!-- find me in partials/news_with_icons -->
+
+            <div class="box-section news with-icons">
+              <div class="avatar blue"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>06</span> jan
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar green"><i class="icon-lightbulb icon-2x"></i></div>
+              <div class="news-time">
+                <span>11</span> feb
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+                <div class="news-text">
+                  Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar purple"><i class="icon-mobile-phone icon-2x"></i></div>
+              <div class="news-time">
+                <span>04</span> mar
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">All about SCSS</a></div>
+                <div class="news-text">
+                  Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+                </div>
+              </div>
+            </div>
+
+
+            <div class="box-section news with-icons">
+              <div class="avatar cyan"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>22</span> dec
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+
+            <!-- find me in partials/news_with_icons -->
+
+            <div class="box-section news with-icons">
+              <div class="avatar blue"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>06</span> jan
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar green"><i class="icon-lightbulb icon-2x"></i></div>
+              <div class="news-time">
+                <span>11</span> feb
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Ruby on Rails 4.0</a></div>
+                <div class="news-text">
+                  Rails 4.0 is still unfinished, but it is shaping up to become a great release ...
+                </div>
+              </div>
+            </div>
+
+            <div class="box-section news with-icons">
+              <div class="avatar purple"><i class="icon-mobile-phone icon-2x"></i></div>
+              <div class="news-time">
+                <span>04</span> mar
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">All about SCSS</a></div>
+                <div class="news-text">
+                  Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules ...
+                </div>
+              </div>
+            </div>
+
+
+            <div class="box-section news with-icons">
+              <div class="avatar cyan"><i class="icon-ok icon-2x"></i></div>
+              <div class="news-time">
+                <span>22</span> dec
+              </div>
+              <div class="news-content">
+                <div class="news-title"><a href="#">Twitter Bootstrap v3.0 is coming!</a></div>
+                <div class="news-text">
+                  With 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the project ...
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <ul class="chat-box timeline">
+
+          <li class="arrow-box-left gray">
+            <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar1.jpg"></div>
+            <div class="info">
+              <span class="name">
+                <span class="label label-green">COMMENT</span> <strong class="indent">Alex</strong> posted a comment on this task: <strong>Core Admin</strong>
+              </span>
+              <span class="time"><i class="icon-time"></i> 3 minutes ago</span>
+            </div>
+            <div class="content">
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </blockquote>
+              <div>
+                <a href="#"><i class="icon-paper-clip"></i> <b>project_news.docx</b></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="arrow-box-left gray">
+            <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+            <div class="info">
+              <span class="name">
+                <span class="label label-blue">TASK</span> <strong class="indent">Michael</strong> completed this task: <strong class="strikethrough">Core Admin</strong>
+              </span>
+              <span class="time"><i class="icon-time"></i> 6 minutes ago</span>
+            </div>
+          </li>
+
+          <li class="arrow-box-left gray">
+            <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar3.jpg"></div>
+            <div class="info">
+              <span class="name">
+                <span class="label label-purple">FILE</span> <strong class="indent">Alex</strong> added 3 new files in project: <strong>Core Admin</strong>
+              </span>
+              <span class="time"><i class="icon-time"></i> 12 minutes ago</span>
+            </div>
+            <div class="content">
+              <ul class="thumbnails padded">
+
+                <li class="col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/240x100" alt="">
+                  </a>
+                </li>
+
+                <li class="col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/240x100" alt="">
+                  </a>
+                </li>
+
+                <li class="col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/240x100" alt="">
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <div class="box closable-chat-box">
+          <div class="box-content padded">
+
+            <div class="fields">
+              <div class="avatar"><img class="avatar-small" src="assets/images/avatars/avatar2.jpg"></div>
+              <ul>
+                <li><b>Add a comment for project <a href="#">Core Admin</a></b></li>
+                <li class="note">Click on the textarea below to expand it!</li>
+              </ul>
+            </div>
+
+            <form class="fill-up" action="/">
+
+              <div class="chat-message-box">
+                <textarea name="ttt" id="ttt" rows="5" placeholder="add a comment (click to expand!)"></textarea>
+              </div>
+
+              <div class="clearfix actions">
+                <span class="note">An optional note can go here</span>
+                <div class="pull-right faded-toolbar">
+                  <a href="#" class="tip" title="" data-original-title="Attach files"><i class="icon-paper-clip"></i></a>
+                  <a href="#" class="btn btn-blue btn-xs">Send</a>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--#include file="module/footer.shtml" -->
